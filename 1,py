@@ -1,0 +1,17 @@
+from geopy.geocoders import Nominatim
+from geopy.distance import geodesic
+
+geo = Nominatim(user_agent="distance_program")
+
+city1 = input("Enter first city: ")
+city2 = input("Enter second city: ")
+
+loc1 = geo.geocode(city1)
+loc2 = geo.geocode(city2)
+
+coord1 = (loc1.latitude, loc1.longitude)
+coord2 = (loc2.latitude, loc2.longitude)
+
+distance = geodesic(coord1, coord2).km
+
+print("Distance between cities:", distance, "km")

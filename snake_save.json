@@ -1,0 +1,38 @@
+{
+  "best": {
+    "Wrap-Easy": 505
+  },
+  "top": {
+    "Wrap-Easy": [
+      [
+        505,
+        "2026-09-29"
+      ]
+    ]
+  },
+  "achievements": [
+    "first_bite",
+    "score_200",
+    "shield_used",
+    "portal"
+  ],
+  "total_apples": 20,
+  "games": 1,
+  "stats": {
+    "play_ms": 58317,
+    "longest": 13,
+    "mice": 0,
+    "spiders": 0,
+    "quests": 2,
+    "portals": 2,
+    "bombs": 0
+  },
+  "settings": {
+    "mode": 1,
+    "diff": 0,
+    "theme": 0,
+    "skin": 7,
+    "audio": 0,
+    "sound": true
+  }
+}
